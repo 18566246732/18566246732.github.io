@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Shopify Bugs Report | Front Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Cannot create sub-directory in asserts directory   below are the shopify project structure    my-shop  ├── assets/  / store all website images, css, js, fonts /  ├── config/  ├── config.yml  ├── layo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shopify Bugs Report">
+<meta property="og:url" content="http://yoursite.com/2018/07/10/shopify_bugs_report/index.html">
+<meta property="og:site_name" content="Front Hub">
+<meta property="og:description" content="Cannot create sub-directory in asserts directory   below are the shopify project structure    my-shop  ├── assets/  / store all website images, css, js, fonts /  ├── config/  ├── config.yml  ├── layo">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-07-10T12:03:13.666Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Shopify Bugs Report">
+<meta name="twitter:description" content="Cannot create sub-directory in asserts directory   below are the shopify project structure    my-shop  ├── assets/  / store all website images, css, js, fonts /  ├── config/  ├── config.yml  ├── layo">
+  
+    <link rel="alternate" href="/atom.xml" title="Front Hub" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Front Hub</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+          <a class="main-nav-link" href="/shopify">Shopify</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-shopify_bugs_report" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/07/10/shopify_bugs_report/" class="article-date">
+  <time datetime="2018-07-10T12:03:13.666Z" itemprop="datePublished">2018-07-10</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/e-commerce-framework/">e-commerce framework</a>►<a class="article-category-link" href="/categories/e-commerce-framework/shopify/">shopify</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Shopify Bugs Report
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li><p><a href="">Cannot create sub-directory in asserts directory</a></p>
+<p>  below are the shopify project structure<br>  <pre><br>  my-shop<br>  ├── assets/  /<em> store all website images, css, js, fonts </em>/<br>  ├── config/<br>  ├── config.yml<br>  ├── layout/<br>  ├── locales/<br>  ├── sections/<br>  ├── snippets/<br>  ├── templates/<br>  └── theme.lock<br>  </pre><br>  if you want to create sub-folders under <code>asstes/</code> , like this:<br>  <pre><br>  assets<br>  ├── gift-card.js<br>  ├── gift-card.scss.liquid<br>  ├── image<br>  │   ├── ajax-loader.gif<br>  │   └── ico-select.svg.liquid<br>  ├── lazysizes.js<br>  ├── match-media.min.js<br>  ├── password.js<br>  ├── theme.js<br>  ├── theme.scss.liquid<br>  └── vendor.js<br>  </pre><br>  create a image folder and store all image under this , everything looks perfect , right ?<br>  but…<br>  when you try to upload them using <a href="https://shopify.github.io/themekit/" target="_blank" rel="noopener">theme kit</a> , you will get HTTP 422 error</p>
+<p>  here you can find more example <a href="https://ecommerce.shopify.com/c/ecommerce-design/t/subdirectories-under-assets-159090" target="_blank" rel="noopener">&gt;&gt;&gt;</a> </p>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/07/10/shopify_bugs_report/" data-id="cjjfoh1j40000dvfywocjdi6i" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/e-commerce-framework/">e-commerce framework</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/e-commerce-framework/shopify/">shopify</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/07/10/shopify_bugs_report/">Shopify Bugs Report</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+    <a href="/shopify" class="mobile-nav-link">Shopify</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
